@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+li {
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+}
+
+span {
+  color: hsl(30, 10%, 34%);
+  font-weight: 700;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+  width: 700px;
+  height: 100%;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+}
+
+.photo img {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.main-text {
+  margin-top: 30px;
+}
+
+.main-text h1 {
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.time {
+  margin-top: 25px;
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.time h4 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.time ul {
+  padding-left: 20px;
+}
+
+.time ul li {
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+.ingredients {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.ingredients h2 {
+  margin-bottom: 15px;
+}
+
+.ingredients ul {
+  padding-left: 20px;
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul li {
+  padding-bottom: 10px;
+  padding-left: 15px;
+  color: hsla(14, 47%, 21%, 0.801);
+}
+
+hr {
+  border: 0.7px solid hsl(30, 18%, 87%);
+}
+
+.instructions {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.instructions h2 {
+  padding-bottom: 17px;
+}
+
+.instructions ul {
+  padding-left: 20px;
+  margin-bottom: 40px;
+  /* list-style-type:symbol  ; */
+}
+
+.instructions ul li {
+  padding-left: 5px;
+}
+
+.instructions ul li {
+  list-style: decimal;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.nutrition h2 {
+  padding-bottom: 15px;
+}
+
+.calories span {
+  display: inline-block;
+  padding-left: 250px;
+}
+
+.calories {
+  padding-left: 30px;
+  padding-top: 20px;
+
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.one-item span {
+  padding-left: 248px;
+}
+
+.two-item span {
+  padding-left: 265px;
+}
+
+.three-item span {
+  padding-left: 257px;
+}
+
+.four-item span {
+  padding-left: 287px;
+}
+
+.calories span {
+  color: hsl(14, 45%, 36%);
+}
+
+.calories hr {
+  margin: 10px;
+  width: 100%;
+  transform: translateX(-40px);
+}
+
+.attribution {
+  padding-top: 40px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Small */
+
+@media (max-width: 600px) {
+  .container {
+    
+    margin: 10px;
+    width: 600px;
+    height: 100%;
+    border-radius: 0px;
+    padding: 0px;
+  }
+  
+  .photo img {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    border-radius: 0px;
+  }
+
+  .one-item span {
+    padding-left: 114px;
+  }
+  
+  .two-item span {
+    padding-left: 130px;
+  }
+  
+  .three-item span {
+    padding-left: 121px;
+  }
+  
+  .four-item span {
+    padding-left: 152px;
+  }
+  
+}
